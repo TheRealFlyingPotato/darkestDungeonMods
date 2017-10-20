@@ -1,0 +1,16 @@
+// Cry Havoc
+effect: .name "Hound Howl 1" .target "target" .curio_result_type "positive" .chance 100% .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 2" .target "target" .curio_result_type "positive" .chance 100% .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 3" .target "target" .curio_result_type "positive" .chance 100% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 4" .target "target" .curio_result_type "positive" .chance 100% .healstress 6	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 5" .target "target" .curio_result_type "positive" .chance 100% .healstress 7	.on_hit true .on_miss false .queue true
+
+effect: .name "Hound Bleed 1" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 1 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Hound Bleed 2" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 1 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Hound Bleed 3" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 1 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Hound Bleed 4" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 2 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Hound Bleed 5" .target "target" .curio_result_type "negative" .chance 150%  .dotBleed 2 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "SS Bleed 1" .target "performer" .curio_result_type "negative" .chance 500%  .dotBleed 3 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "SS Bleed 2" .target "performer" .curio_result_type "negative" .chance 500%  .dotBleed 5 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "SS Bleed 3" .target "performer" .curio_result_type "negative" .chance 500%  .dotBleed 7 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
